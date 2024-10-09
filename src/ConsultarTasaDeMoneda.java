@@ -9,7 +9,7 @@ import java.net.http.HttpResponse;
 
 public class ConsultarTasaDeMoneda {
 
-    public Moneda buscaMoneda(String monedaBase, String monedaAConvertir) {
+    public Moneda buscaMoneda(String monedaBase) {
 
         URI direccion = URI.create("https://v6.exchangerate-api.com/v6/7a1f6c562c7eb4c9918c51ff/latest/"
                 + monedaBase);
